@@ -1,0 +1,129 @@
+.testxav{
+  color: red;
+  background-color: blue;
+}
+
+.image {
+  position: relative; 
+  left: 1px;
+  top: 1px; 
+  height:20px; 
+  width:21px; 
+  border:none;
+}
+
+.imagebutton {
+  height: 22px;
+  width: 23px; 
+  border: solid 2px #C0C0C0;
+  background-color: #C0C0C0;
+  float: left;
+  text-align: center;
+}
+
+.imagebuttonclick {
+  height: 22px;
+  width: 23px; 
+  border: solid 2px red;
+  background-color: #C0C0C0;
+  float: left;
+  text-align: center;
+}
+
+div.imagebutton:hover {
+  border: solid 2px #000000;
+}
+
+.novisible{
+  display: none;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.textbarre{
+  text-decoration: line-through;
+}
+
+.novisu{
+  display: none;
+}
+.visu1_1{
+  display: block;
+  width: 868px;
+  height: 320px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.visu1_2{
+  display: block;
+  width: 868px;
+  height: 140px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.visu2_2{
+  display: block;
+  width: 868px;
+  height: 280px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.visu1_3{
+  display: block;
+  width: 868px;
+  height: 240px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.visu2_3{
+  display: block;
+  width: 868px;
+  height: 120px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.visu3_3{
+  display: block;
+  width: 868px;
+  height: 80px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+.twbaraction{
+  height: 24px;
+  padding: 3px;
+  width: 864px;
+  background-color: #666666;
+  color: #FFFFFF;
+}
+.twbarlang{
+  margin-top: 9px;
+  height: 15px;
+  padding: 3px;
+  width: 864px;
+  border-bottom: 2px solid black;
+  background-color: #666666;
+  color: #FFFFFF;
+}
+.twnamelang{
+  height: 15px;
+  width: 93px;
+  padding-left: 3px;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+

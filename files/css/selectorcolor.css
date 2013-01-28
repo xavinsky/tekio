@@ -1,0 +1,136 @@
+.change_gris{
+  z-index: 300;
+}
+.spectre_colors{
+  z-index: 300;
+}
+
+.color_down{
+  width: 80px;
+  height: 16px;
+  position: relative;
+}
+.color_up{
+  width: 80px;
+  height: 16px;
+  position: relative;
+}
+
+.color3_down{
+  width: 80px;
+  height: 16px;
+  position: relative;
+}
+
+.color3_up{
+  width: 80px;
+  height: 16px;
+  position: relative;
+}
+
+.preview{
+  height: 20px;
+  width: 30px;
+  border: 1px solid black;
+  display: inline;
+  position: relative;
+}
+
+.previewL{
+  height: 20px;
+  width: 15px;
+  border: 1px solid black;
+  display: inline;
+  position: relative;
+
+}.previewR{
+  height: 20px;
+  width: 15px;
+  border: 1px solid black;
+  display: inline;
+  position: relative;
+}
+.previews_up{
+  height: 20px;
+  width: 60px;
+  border: 1px solid black;
+  display: inline;
+  position: relative;
+}
+.previews_down{
+  height: 20px;
+  width: 60px;
+  border: 1px solid black;
+  display: inline;
+  position: relative;
+}
+
+.pixelPreview{
+  height: 20px;
+  width: 30px;
+}
+.pixel2Preview{
+  height: 20px;
+  width: 15px;
+}
+
+.previews_up .change_gris{
+  top: -103px;
+}
+.previews_down .change_gris{
+  top: 23px;
+}
+
+.change_gris{
+  position: absolute;
+  left: -3px;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
+.change_gris_in{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.change_gris_img{
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.change_gris_pointer{
+  top: 0px;
+  left: 0px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+
+.previews_up .spectre_colors{
+  top: -103px;
+}
+.previews_down .spectre_colors{
+  top: 23px;
+}
+
+.spectre_colors{
+  position: absolute;
+  left: 100px;
+  width: 10px;
+  height: 100px;
+  display: none;
+}
+.spectre_colors_pointer{
+  width: 10px;
+  height: 5px;
+  position: absolute;
+}
+
+.spectre_colors_img{
+  width: 10px;
+  height: 100px;
+  display: block;
+}

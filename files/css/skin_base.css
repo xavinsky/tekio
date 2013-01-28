@@ -1,0 +1,459 @@
+/* CSS du skin base */
+
+/* GLOBAL */
+
+
+* {
+padding: 0px;
+margin: 0px;
+}
+
+html {
+padding: 0px;
+margin: 0px;
+height: 100%;
+}
+
+body {
+font-size: 12px;
+font-weight: normal;
+color: #669900;
+font-size-adjust: none;
+height: 100%;
+padding: 0px;
+width: 100%;
+font-stretch: normal;
+line-height: normal;
+font-variant: normal;
+font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+margin: 0px;
+font-style: normal;
+background-color: #cccccc;
+text-align: center;
+}
+
+img {
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+
+dl, dt, dd, ul, li {
+padding: 0px;
+list-style-type: none;
+margin: 0px;
+}
+
+a {
+color: #669900;
+font-size: 10px;
+font-weight: normal;
+}
+
+a:hover {
+color: #669900;
+font-size: 10px;
+font-weight: normal;
+}
+
+@font-face {
+src: url(/includes/fonts/chianti.pfr);
+font-family: Chianti XBd BT;
+}
+
+@font-face  {
+src: url(/includes/fonts/chianti.eot);
+font-family: Chianti XBd BT;
+}
+
+textarea {
+height: 200px;
+width: 400px;
+}
+
+textarea.grand {
+height: 300px;
+width: 600px;
+}
+
+hr {
+color: #ccffcc;
+background-color: #ccffcc;
+height: 3px;
+border: 0px;
+}
+
+hr.big {
+color: #ccffcc;
+background-color: #ccffcc;
+height: 3px;
+border: 0px;
+}
+
+#centre ul {
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+list-style-position: inside;
+marker-offset: 0px;
+line-height: 15px;
+}
+
+#centre li {
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+list-style-position: inside;
+list-style-type: disc;
+marker-offset: 0px;
+line-height: 15px;
+}
+
+
+/* CLASSICAL */
+
+
+.rel {
+position: relative;
+}
+
+.preloadimgs {
+top: 0px;
+height: 1px;
+width: 1px;
+position: absolute;
+overflow: hidden;
+left: 0px;
+}
+
+.preloadimg {
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.avecscroll {
+height: 100%;
+overflow: scroll;
+overflow-x: hidden;
+}
+
+.noscroll {
+position: absolute;
+width: 100%;
+}
+
+
+/* WIKI */
+
+
+.line {
+position: relative;
+clear: both;
+margin: 0px;
+width: 480px;
+}
+
+.col1 {
+padding: 0px 20px 0px 0px;
+width: 460px;
+float: left;
+margin: 0px;
+}
+
+.col2 {
+padding: 0px 20px 0px 0px;
+width: 220px;
+float: left;
+margin: 0px;
+}
+
+.col3 {
+padding: 0px 20px 0px 0px;
+width: 140px;
+float: left;
+margin: 0px;
+}
+
+.col3_2 {
+padding: 0px 20px 0px 0px;
+width: 300px;
+float: left;
+margin: 0px;
+}
+
+.elem {
+position: relative;
+margin-bottom: 20px;
+test-align: justify;
+text-justify: newspaper;
+}
+
+.elem a {
+color: #669900;
+font-size: 10px;
+font-weight: normal;
+}
+
+.elem a:hover {
+color: #669900;
+font-size: 10px;
+font-weight: normal;
+}
+
+.col4 {
+padding: 0px 20px 0px 0px;
+width: 100px;
+float: left;
+margin: 0px;
+}
+
+
+/* OMBRES */
+
+
+.ombre_droite {
+background-image: url(/includes/images/ombre/esquina_sombra2.jpg);
+background-repeat: repeat-y;
+top: 0px;
+padding: 0px;
+width: 760px;
+position: relative;
+background-position: top right;
+margin: 0px;
+left: 0px;
+}
+
+.ombre_coin_haut {
+background-image: url(/includes/images/ombre/esquina_sombra1.jpg);
+background-repeat: no-repeat;
+top: 0px;
+padding: 0px;
+width: 760px;
+position: relative;
+background-position: top right;
+margin: 0px;
+left: 0px;
+}
+
+.ombre_bas {
+background-image: url(/includes/images/ombre/esquina_sombra4.jpg);
+background-repeat: repeat-x;
+top: 0px;
+height: 52px;
+padding: 0px;
+width: 760px;
+position: relative;
+background-position: bottom right;
+margin: 0px;
+left: 0px;
+}
+
+.ombre_coin_gauche {
+background-image: url(/includes/images/ombre/esquina_sombra5.jpg);
+background-repeat: no-repeat;
+top: 0px;
+height: 52px;
+padding: 0px;
+width: 760px;
+position: relative;
+background-position: bottom left;
+margin: 0px;
+left: 0px;
+}
+
+.ombre_coin_fin {
+background-image: url(/includes/images/ombre/esquina_sombra3.jpg);
+background-repeat: no-repeat;
+top: 0px;
+height: 52px;
+padding: 0px;
+width: 760px;
+position: relative;
+background-position: bottom right;
+margin: 0px;
+left: 0px;
+}
+
+/* DISPOSITION BLOCS */
+
+
+.centrage {
+margin-left: auto;
+margin-bottom: 0px;
+width: 760px;
+margin-top: 5px;
+margin-right: auto;
+position: relative;
+background-color: #FFFFFF;
+text-align: left;
+}
+
+.haut {
+height: 60px;
+padding: 0px;
+width: 740px;
+position: relative;
+margin: 0px;
+background-color: #CCFFCC;
+}
+
+.mid {
+position: relative;
+width: 740px;
+margin-top: 35px;
+}
+
+.gauche {
+float: left;
+padding: 0px;
+width: 165px;
+margin: 0px 35px 0px 45px;
+background-color: #FFFFFF;
+}
+
+.midmid {
+_height: 450px;
+float: left;
+min-height: 460px;
+height: auto !important;
+padding: 0px;
+width: 460px;
+margin: 0px 0px 60px 0px;
+}
+
+.midhaut {
+}
+
+.contentpage {
+}
+
+.midbas {
+}
+
+.droite {
+}
+
+.stopmid {
+width: 740px;
+clear: both;
+height: 0px;
+}
+
+.bas {
+position: relative;
+height: 52px;
+background-color: #669900;
+width: 740px;
+}
+
+/* CUSTOM */
+
+
+.comment {
+  text-align: left;
+  font-size: 9px;
+  font-style: italic;
+}
+
+.elem .nom {
+  font-size: 10px;
+  font-weight: bold;
+  color: #669900;
+}
+
+.elem:hover .nom {
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.elem .titrecdlc {
+  font-size: 10px;
+  font-weight: normal;
+  color: #669900;
+}
+
+.elem.m20 {
+  top: -20px;
+  margin-bottom: 0px;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.galerie_elem{
+  float: left;
+  margin-right: 5px;
+  padding: 2px;
+  border: 1px solid #CCFFCC;
+  margin-top: 5px;
+  min-height: 110px;
+  height: 110px;
+  background-color: #FFFFFF;
+  text-align: center;
+  display: table; 
+}
+
+.galerie_elem a {
+  text-decoration: none;
+  vertical-align: middle;
+  display: table-cell;
+  min-height: 110px;
+}
+.galerie_elem:hover{
+  background-color: #CCFFCC;
+  border: 1px solid #669900;
+}
+
+.galerie_extrait{
+  float: left;
+  margin-right: 5px;
+  padding: 2px;
+  border: 1px solid #CCFFCC;
+  margin-top: 5px;
+  min-height: 110px;
+  height: 110px;
+  background-color: #FFFFFF;
+  text-align: left;
+  display: table; 
+}
+
+.galerie_extrait a {
+  text-decoration: none;
+  vertical-align: middle;
+  display: table-cell;
+  min-height: 110px;
+}
+.galerie_extrait:hover{
+  background-color: #CCFFCC;
+  border: 1px solid #669900;
+}
+
+.bottom5{
+  margin-bottom: 5px;
+}
+
+.linktitle{
+  position: relative;
+  top: 30px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.linktitle a{
+  text-decoration: none;
+}
+
+.espacehaut{
+  height: 25px;
+}
+
+.espacehaut2{
+  display: none;
+}
+
+.label{
+  width: 200px;
+  text-align: right;
+  background-color: blue;
+}

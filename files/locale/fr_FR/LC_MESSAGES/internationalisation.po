@@ -1,0 +1,813 @@
+# French translations for PACKAGE package.
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2009.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-10 21:43+0200\n"
+"PO-Revision-Date: 2009-06-03 19:12+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: editeurtext.py:37
+msgid "Appliquer un style"
+msgstr ""
+
+#: editeurtext.py:37
+msgid "Normal"
+msgstr ""
+
+#: editeurtext.py:51
+msgid "HTML"
+msgstr ""
+
+#: libtek.py:133
+msgid " Vous n'etes pas administrateur ou non connecte "
+msgstr ""
+
+#: libtek.py:141
+msgid " Vous n'etes pas editeur ou non connecte "
+msgstr "Vous n'etes pas éditeur ou non connecté"
+
+#: objets/admin.py:23 objets/racine.py:71
+msgid "<h1>Administration </h1>\n"
+msgstr ""
+
+#: objets/admin.py:24 objets/admin.py:32 objets/racine.py:72
+#: objets/racine.py:80
+msgid "Gestion des utilisateurs"
+msgstr ""
+
+#: objets/admin.py:25 objets/racine.py:73
+msgid "Vue technique des objets"
+msgstr ""
+
+#: objets/admin.py:48 objets/racine.py:90
+msgid "Nouvel utilisateur : openid"
+msgstr "Nouveau utilisateur : openid"
+
+#: objets/admin.py:49 objets/admin.py:84 objets/file.py:44 objets/file.py:127
+#: objets/folder.py:88 objets/galerie.py:32 objets/galerie.py:111
+#: objets/galerie.py:231 objets/image.py:101 objets/image.py:262
+#: objets/page.py:62 objets/page.py:358 objets/racine.py:91
+#: objets/racine.py:124 objets/racine.py:227 objets/site.py:37
+#: objets/skin.py:186 objets/skin.py:369 objets/skin.py:426 objets/skin.py:531
+msgid "Valider"
+msgstr ""
+
+#: objets/admin.py:72 objets/racine.py:112
+msgid "Edition Utilisateur"
+msgstr ""
+
+#: objets/admin.py:76 objets/racine.py:116
+msgid "Liste des groupes :<br />"
+msgstr ""
+
+#: objets/admin.py:185
+msgid "!!DETRUIRE!!"
+msgstr ""
+
+#: objets/admin.py:320
+msgid "Modifier"
+msgstr ""
+
+#: objets/admin.py:326 objets/admin.py:343
+msgid "Ajouter"
+msgstr ""
+
+#: objets/file.py:21
+msgid "Fichier"
+msgstr ""
+
+#: objets/file.py:26 objets/file.py:51 objets/file.py:115 objets/file.py:135
+#: objets/folder.py:42 objets/folder.py:56 objets/folder.py:74
+#: objets/folder.py:95 objets/folder.py:113 objets/image.py:82
+#: objets/image.py:107 objets/image.py:236 objets/image.py:270
+#: objets/skin.py:351 objets/skin.py:387 objets/skin.py:397 objets/skin.py:410
+#: objets/skin.py:433 objets/skin.py:449 objets/skin.py:478 objets/skin.py:499
+#: objets/skin.py:538 objets/skin.py:608 objets/skin.py:626 objets/skin.py:689
+#: objets/skin.py:702 objets/skin.py:756 objets/skin.py:767 objets/skin.py:878
+#: objets/skin.py:898 objets/skin.py:1101 objets/texte.py:46
+#: objets/texte.py:66 objets/texte.py:164 objets/texte.py:192
+msgid "connectez vous..."
+msgstr ""
+
+#: objets/file.py:41
+msgid "Ajouter un File"
+msgstr "Ajouter un fichier"
+
+#: objets/file.py:126
+msgid "Edition du Fichier"
+msgstr "Edition du fichier"
+
+#: objets/file.py:127
+msgid "Changer le fichier"
+msgstr ""
+
+#: objets/file.py:144
+msgid " Pas de fichier !!! "
+msgstr ""
+
+#: objets/folder.py:20
+msgid "SERVEUR HTTPDtekio : Repertoires et Fichiers Publics"
+msgstr ""
+
+#: objets/folder.py:25
+msgid "Retour"
+msgstr ""
+
+#: objets/folder.py:27
+msgid "Contenu du Repertoire Actuel"
+msgstr "Contenu du répertoire actuel"
+
+#: objets/folder.py:51 objets/folder.py:66
+msgid "Type non pris en compte"
+msgstr ""
+
+#: objets/galerie.py:32
+msgid "Ajouter une Galerie"
+msgstr "Ajouter une galerie"
+
+#: objets/galerie.py:32 objets/galerie.py:221
+msgid "Url"
+msgstr ""
+
+#: objets/galerie.py:32 objets/galerie.py:109 objets/galerie.py:231
+#: objets/page.py:52 objets/page.py:348 objets/site.py:25
+msgid "Titre"
+msgstr ""
+
+#: objets/galerie.py:32
+msgid "Texte Navigation"
+msgstr "Texte à afficher dans la zone de navigation"
+
+#: objets/galerie.py:32 objets/galerie.py:109 objets/galerie.py:231
+msgid "Description"
+msgstr ""
+
+#: objets/galerie.py:108
+#, fuzzy
+msgid "Ajouter un element à la galerie"
+msgstr "Ajouter un élément à la galerie"
+
+#: objets/galerie.py:110
+msgid "Image a afficher"
+msgstr ""
+
+#: objets/galerie.py:110
+msgid "Vignette (mini)"
+msgstr ""
+
+#: objets/galerie.py:110
+msgid "Fichier a telecharger"
+msgstr "Fichier à télécharger"
+
+#: objets/galerie.py:195
+msgid "Etes vous sur que vous voulez detruire cette galerie"
+msgstr "Etes vous sûr que vous voulez détruire cette galerie"
+
+#: objets/galerie.py:197
+msgid "Destruction GALERIE"
+msgstr ""
+
+#: objets/galerie.py:198
+msgid "Annuler"
+msgstr ""
+
+#: objets/galerie.py:231
+msgid "Editer les proprietes de la galerie"
+msgstr "Editer les propriétés de la galerie"
+
+#: objets/galerie.py:231
+msgid "Text Nav"
+msgstr "Texte à afficher dans la zone de navigation"
+
+#: objets/galerie.py:290
+msgid "voir la galerie"
+msgstr "Voir la galerie"
+
+#: objets/galerie.py:337
+msgid "Precedent"
+msgstr "Précédent"
+
+#: objets/galerie.py:342
+msgid "Suivant"
+msgstr ""
+
+#: objets/galerie.py:352
+msgid "Retour galerie"
+msgstr ""
+
+#: objets/galerie.py:352
+msgid "Version Detail"
+msgstr "Version détail"
+
+#: objets/image.py:57 objets/image.py:71
+msgid "Titre image"
+msgstr ""
+
+#: objets/image.py:58 objets/image.py:73
+msgid "Lien image"
+msgstr ""
+
+#: objets/image.py:59 objets/image.py:75
+msgid "Classe css"
+msgstr ""
+
+#: objets/image.py:60
+msgid "Fichier Image"
+msgstr "Fichier image"
+
+#: objets/image.py:77
+msgid "Changer l'image"
+msgstr ""
+
+#: objets/image.py:99
+msgid "Ajouter une Image"
+msgstr "Ajouter une image"
+
+#: objets/image.py:262 objets/skin.py:369
+msgid "Edition de l'Image"
+msgstr "Edition de l'image"
+
+#: objets/image.py:314 objets/image.py:317
+msgid "non implemente..."
+msgstr "non implémenté..."
+
+#: objets/menu.py:26
+msgid "Tekio"
+msgstr ""
+
+#: objets/menu.py:27 objets/palette.py:21
+msgid "Se deconnecter"
+msgstr "Se déconnecer"
+
+#: objets/menu.py:28 objets/palette.py:22
+msgid "A propos"
+msgstr ""
+
+#: objets/menu.py:34 objets/menu.py:41 objets/skin.py:1080
+msgid "Site"
+msgstr ""
+
+#: objets/menu.py:35 objets/menu.py:42 objets/palette.py:28
+#: objets/palette.py:35
+msgid "Editer Proprietes"
+msgstr "Propriétés du site"
+
+#: objets/menu.py:36 objets/palette.py:30
+msgid "Gestion Utilisateurs"
+msgstr "Gestion des utilisateurs"
+
+#: objets/menu.py:48 objets/menu.py:59 objets/menu.py:70
+msgid "Skin"
+msgstr ""
+
+#: objets/menu.py:49 objets/menu.py:60 objets/menu.py:71
+msgid "Liste Des Skins"
+msgstr "Liste des skins"
+
+#: objets/menu.py:50 objets/menu.py:61
+msgid "Generation des couleurs"
+msgstr "Génération des couleurs"
+
+#: objets/menu.py:51 objets/menu.py:62
+msgid "Retourche des couleurs"
+msgstr "Retouche des couleurs"
+
+#: objets/menu.py:52 objets/menu.py:63
+msgid "Modification des images"
+msgstr ""
+
+#: objets/menu.py:53 objets/menu.py:64
+msgid "Modification des styles"
+msgstr ""
+
+#: objets/menu.py:54 objets/menu.py:65
+msgid "Changer la disposition"
+msgstr ""
+
+#: objets/menu.py:80 objets/menu.py:96
+msgid "Page"
+msgstr ""
+
+#: objets/menu.py:81 objets/menu.py:97 objets/palette.py:45
+#: objets/palette.py:59
+msgid "Ajouter une page"
+msgstr ""
+
+#: objets/menu.py:82 objets/menu.py:98 objets/palette.py:46
+#: objets/palette.py:60
+msgid "Editer page"
+msgstr ""
+
+#: objets/menu.py:83 objets/palette.py:47
+msgid "Deplacer page"
+msgstr "Déplacer page"
+
+#: objets/menu.py:84 objets/palette.py:48
+msgid "Detruire page"
+msgstr "Détruire page"
+
+#: objets/menu.py:86 objets/menu.py:100
+msgid "Contenu"
+msgstr ""
+
+#: objets/menu.py:87 objets/menu.py:101 objets/palette.py:88
+msgid "Activer edition de contenu"
+msgstr "Activer édition de contenu"
+
+#: objets/menu.py:88 objets/menu.py:102 objets/palette.py:50
+#: objets/palette.py:62
+msgid "Ajouter Texte"
+msgstr "Ajouter texte"
+
+#: objets/menu.py:89 objets/menu.py:103 objets/palette.py:51
+#: objets/palette.py:63
+msgid "Ajouter Image"
+msgstr "Ajouter image"
+
+#: objets/menu.py:90 objets/menu.py:104 objets/palette.py:52
+#: objets/palette.py:64
+msgid "Ajouter Fichier"
+msgstr "Ajouter fichier"
+
+#: objets/navigation.py:24
+msgid "Id de la navigation (dont derive les css) "
+msgstr ""
+
+#: objets/navigation.py:24 objets/navigation.py:39
+msgid "Type de navigation"
+msgstr ""
+
+#: objets/page.py:42 objets/page.py:328 objets/site.py:20
+msgid "Information en "
+msgstr ""
+
+#: objets/page.py:52
+msgid "Identifiant pour url"
+msgstr ""
+
+#: objets/page.py:52 objets/page.py:341
+msgid "Text Navigation"
+msgstr "Texte à afficher dans la zone de navigation"
+
+#: objets/page.py:62
+msgid "Ajouter une Page"
+msgstr "Ajouter une page"
+
+#: objets/page.py:106
+msgid "Erreur : Pas de nom d'url"
+msgstr ""
+
+#: objets/page.py:149
+msgid "Etes vous sur que vous voulez detruire cette page"
+msgstr "Etes vous sûr que vous voulez détruire cette page?"
+
+#: objets/page.py:161
+msgid "Destruction de la page"
+msgstr ""
+
+#: objets/page.py:265
+msgid ""
+"La zone verte indique la page a deplacer. Vous pouvez survoler les autres "
+"pages pour vous intercaller. Vous pouvez survoler les fleches pour entrer "
+"dans une sous page. Cliquer dans la zone verte pour valider le deplacement "
+"de la page."
+msgstr ""
+"La zone verte indique la page à déplacer. Vous pouvez survoler les "
+"autrespages pour vous intercaler. Vous pouvez survoler les flèches pour "
+"entrerdans une sous page. Cliquer dans la zone verte pour valider le "
+"déplacementde la page."
+
+#: objets/page.py:336
+msgid "Identifiant pour url "
+msgstr ""
+
+#: objets/page.py:358
+msgid "Editer les proprietes de la page"
+msgstr "Propriétés de la page"
+
+#: objets/page.py:483
+msgid "Attention vous detruisez"
+msgstr ""
+
+#: objets/page.py:483
+msgid "!!! UNE PAGE !!!"
+msgstr ""
+
+#: objets/page.py:483
+msgid "et tous ses elements"
+msgstr "et tous ses éléments"
+
+#: objets/palette.py:29 objets/palette.py:36
+msgid "Editer Skins"
+msgstr "Editer skins"
+
+#: objets/palette.py:53 objets/palette.py:65
+msgid "Ajouter Galerie"
+msgstr "Ajouter galerie"
+
+#: objets/palette.py:71
+msgid "Editer propriete"
+msgstr "Propriétés de la page"
+
+#: objets/palette.py:72
+msgid "Ajouter Element"
+msgstr "Ajouter élément"
+
+#: objets/palette.py:150
+msgid "nouvelle position palette : "
+msgstr "nouvelle position de la palette: "
+
+#: objets/racine.py:171
+msgid "Compte utilisateur"
+msgstr ""
+
+#: objets/racine.py:173
+msgid "Utilisateur"
+msgstr ""
+
+#: objets/racine.py:173
+msgid "Deconnection"
+msgstr "Déconnection"
+
+#: objets/racine.py:207
+msgid "Activation de la palette"
+msgstr ""
+
+#: objets/racine.py:207
+msgid "Activer"
+msgstr ""
+
+#: objets/racine.py:207
+msgid "Desactiver"
+msgstr "Désactiver"
+
+#: objets/racine.py:208
+msgid "Position si activée"
+msgstr ""
+
+#: objets/racine.py:227
+msgid "Votre language"
+msgstr ""
+
+#: objets/racine.py:246
+msgid "Connection"
+msgstr ""
+
+#: objets/racine.py:247
+msgid "Identifiant Open ID"
+msgstr ""
+
+#: objets/racine.py:248
+msgid "Se connecter automatiquement la prochaine fois"
+msgstr ""
+
+#: objets/racine.py:249
+msgid "se connecter"
+msgstr ""
+
+#: objets/racine.py:297
+msgid "Tekio version "
+msgstr "Tekio"
+
+#: objets/racine.py:298
+msgid "En cas de probleme contacter"
+msgstr "En cas de problème contacter"
+
+#: objets/site.py:26
+msgid "Meta : Mots clefs"
+msgstr ""
+
+#: objets/site.py:27
+msgid "Meta : Description"
+msgstr ""
+
+#: objets/site.py:37
+msgid "Editer les proprietes du site"
+msgstr "Propriétés du site"
+
+#: objets/skin.py:167
+msgid "Liste des templates et includes css"
+msgstr ""
+
+#: objets/skin.py:168
+msgid "Includes css"
+msgstr ""
+
+#: objets/skin.py:169
+msgid "Templates css"
+msgstr ""
+
+#: objets/skin.py:170
+msgid "Valider la modification des deux liste"
+msgstr "Valider la modification des deux listes"
+
+#: objets/skin.py:173
+msgid "Edition des fichier template et css"
+msgstr "Editions des fichiers template et css"
+
+#: objets/skin.py:197
+msgid "fichier template : "
+msgstr ""
+
+#: objets/skin.py:198 objets/skin.py:217 objets/skin.py:242 objets/skin.py:267
+#: objets/skin.py:747
+msgid "Editer"
+msgstr ""
+
+#: objets/skin.py:198
+msgid "ANNULER"
+msgstr ""
+
+#: objets/skin.py:218 objets/skin.py:243 objets/skin.py:268
+msgid "Detruire"
+msgstr "Détruire"
+
+#: objets/skin.py:227
+msgid "Nouvelle Image"
+msgstr "Nouvelle image"
+
+#: objets/skin.py:227
+msgid "Ajouter cette image"
+msgstr ""
+
+#: objets/skin.py:252
+msgid "Nouvelle Navigation"
+msgstr "Nouvelle zone de navigation"
+
+#: objets/skin.py:252
+msgid "Ajouter une navigation"
+msgstr "Ajouter une zone de navigation"
+
+#: objets/skin.py:271
+msgid "Editer un nouveau texte"
+msgstr ""
+
+#: objets/skin.py:276
+msgid "Header"
+msgstr ""
+
+#: objets/skin.py:277
+msgid "Footer"
+msgstr ""
+
+#: objets/skin.py:278
+msgid "Changer les codes template"
+msgstr ""
+
+#: objets/skin.py:426
+msgid "Edition de la Navigation"
+msgstr "Edition de la navigation"
+
+#: objets/skin.py:470
+msgid "Nouveau Text"
+msgstr "Nouveau text"
+
+#: objets/skin.py:470
+msgid "Ajouter un text"
+msgstr ""
+
+#: objets/skin.py:531
+msgid "Edition de la Textigation"
+msgstr "Edition de la textigation"
+
+#: objets/skin.py:595
+msgid "Generation de couleurs"
+msgstr "Génération des couleurs"
+
+#: objets/skin.py:596
+msgid "Couleur Primaire et ses degrades sombre et clair."
+msgstr "Couleur principale et ses dégradés sombre et clair"
+
+#: objets/skin.py:597
+msgid "Couleur Secondaire et ses degrades sombre et clair."
+msgstr "Couleur auxiliaire et ses dégradés sombre et clair"
+
+#: objets/skin.py:598 objets/skin.py:678
+msgid "Couleur d alerte."
+msgstr "Couleur d'alerte"
+
+#: objets/skin.py:599 objets/skin.py:680
+msgid "Gris pour texte"
+msgstr "Gris"
+
+#: objets/skin.py:600
+msgid "Generer les couleurs"
+msgstr "Générer les couleurs"
+
+#: objets/skin.py:671
+msgid "Couleurs utilisés"
+msgstr ""
+
+#: objets/skin.py:672
+msgid "Couleur Primaire Sombre"
+msgstr "Dégradé sombre de la couleur principale"
+
+#: objets/skin.py:673
+msgid "Couleur Primaire Normale"
+msgstr "Couleur principale"
+
+#: objets/skin.py:674
+msgid "Couleur Primaire Claire"
+msgstr "Dégradé clair de la couleur principale"
+
+#: objets/skin.py:675
+msgid "Couleur Secondaire Sombre"
+msgstr "Dégradé sombre de la couleur auxiliaire"
+
+#: objets/skin.py:676
+msgid "Couleur Secondaire Normale"
+msgstr "Couleur auxiliaire"
+
+#: objets/skin.py:677
+msgid "Couleur Secondaire Claire"
+msgstr "Dégradé clair de la couleur auxiliaire"
+
+#: objets/skin.py:679
+msgid "Noir"
+msgstr ""
+
+#: objets/skin.py:681
+msgid "Blanc"
+msgstr ""
+
+#: objets/skin.py:682
+msgid "Modifier les couleurs"
+msgstr ""
+
+#: objets/skin.py:714
+msgid "Images du skin"
+msgstr ""
+
+#: objets/skin.py:740
+msgid "Modification de l'Image"
+msgstr "Modification de l'image"
+
+#: objets/skin.py:740
+msgid "Valider la modification de cette image"
+msgstr ""
+
+#: objets/skin.py:807 objets/skin.py:820 objets/skin.py:833
+msgid "Aucune"
+msgstr ""
+
+#: objets/skin.py:854
+msgid "Montrer les proprietes"
+msgstr "Montrer les propriétés"
+
+#: objets/skin.py:855
+msgid "Cacher les proprietes de la balise "
+msgstr "Cacher les propriétés de la balise"
+
+#: objets/skin.py:870
+msgid "Gestion des styles"
+msgstr ""
+
+#: objets/skin.py:871
+msgid "Valider les styles"
+msgstr ""
+
+#: objets/skin.py:903 objets/skin.py:922
+#, fuzzy
+msgid "A gauche"
+msgstr "En bas à gauche"
+
+#: objets/skin.py:904
+msgid "Au centre"
+msgstr ""
+
+#: objets/skin.py:923
+#, fuzzy
+msgid "A droite"
+msgstr "En bas à droite"
+
+#: objets/skin.py:1081
+#, fuzzy
+msgid "Navigation"
+msgstr "Texte à afficher dans la zone de navigation"
+
+#: objets/skin.py:1082
+msgid "Largeur Maxi"
+msgstr ""
+
+#: objets/skin.py:1083
+#, python-format
+msgid "765 pour que 99% des PC puisses voir ton site sans scroll"
+msgstr ""
+
+#: objets/skin.py:1084
+#, python-format
+msgid "ou 990 pour que 80% des PC puisses voir ton site sans scroll"
+msgstr ""
+
+#: objets/skin.py:1085
+msgid "Marge zone edition"
+msgstr ""
+
+#: objets/skin.py:1086
+msgid "12 pour un site en 765 / 18 pour un site en 990"
+msgstr ""
+
+#: objets/skin.py:1087
+#, fuzzy
+msgid "Marge des elements"
+msgstr "et tous ses éléments"
+
+#: objets/skin.py:1088
+msgid "6 pour un site en 765 / 9 pour un site en 990"
+msgstr ""
+
+#: objets/skin.py:1089
+msgid "Nombre colonnes maxi dans la zone d'edition"
+msgstr ""
+
+#: objets/skin.py:1090
+msgid "Largeurs possible de la zone edition"
+msgstr ""
+
+#: objets/skin.py:1091
+msgid "pour un site en 765 environ 500"
+msgstr ""
+
+#: objets/skin.py:1092
+msgid "pour un site en 990 environ 620"
+msgstr ""
+
+#: objets/skin.py:1093
+#, fuzzy
+msgid "Calcul taille Navigation"
+msgstr "Nouvelle zone de navigation"
+
+#: objets/skin.py:1094
+#, fuzzy
+msgid "Valider la disposition"
+msgstr "Valider la modification des deux listes"
+
+#: objets/skin.py:1373
+msgid "Skins existants"
+msgstr ""
+
+#: objets/skin.py:1381
+msgid "Activer Menu"
+msgstr "Activer menu"
+
+#: objets/skin.py:1382
+msgid "Technique"
+msgstr "Vue technique"
+
+#: objets/texte.py:26
+msgid "Editer un Text "
+msgstr "Editer un text"
+
+#: objets/texte.py:60
+msgid "Ajouter ce texte"
+msgstr ""
+
+#: objets/texte.py:186
+msgid "Modifier ce texte"
+msgstr ""
+
+#: objets/wiki.py:23
+msgid "Placer"
+msgstr ""
+
+#: objets/wiki.py:23
+msgid "En haut de la page"
+msgstr ""
+
+#: objets/wiki.py:23
+msgid "En haut a gauche"
+msgstr "En haut à gauche"
+
+#: objets/wiki.py:24
+msgid "En haut a droite"
+msgstr "En haut à droite"
+
+#: objets/wiki.py:24
+msgid "En bas a gauche"
+msgstr "En bas à gauche"
+
+#: objets/wiki.py:24
+msgid "En bas a droite"
+msgstr "En bas à droite"
+
+#: objets/wiki.py:25
+msgid "En bas de la page"
+msgstr ""
+
+#: objets/wiki.py:61
+msgid "Etes vous sur que vous voulez detruire cette element"
+msgstr "Etes vous sûr que vous voules détruire cette élément"
+
+#: objets/wiki.py:73
+msgid "Destruction"
+msgstr ""

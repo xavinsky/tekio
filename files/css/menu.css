@@ -1,0 +1,698 @@
+.noscroll{
+  z-index: 20;
+}
+.menu_niv2_ombre{
+  z-index: 50;
+}
+.infobull{
+  z-index: 60;
+}
+.panneau_base {
+  z-index: 25;
+}
+.panneau_alerte {
+  z-index: 25;
+}
+.icon_actions_elem{
+  z-index: 10;
+}
+.icon_actions_col{
+  z-index: 10;
+}
+.proprietes_css{
+  z-index: 60;
+}
+.ombre_menu_1{
+  z-index: 40;
+}
+
+
+.menu_line_niv1{
+  position: relative;
+  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  width: 100%;
+  background-color: black;
+}
+
+.menu_logo{
+  position: relative;
+  float: left;
+  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  width: 25px;
+  background-color: red;
+}
+
+.menu_niv1{
+  position: relative;
+  float: left;
+  height: 21px;
+  min-height: 21px;
+  max-height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 4px;
+  background-color: black;
+  color: white;
+}
+
+.menu_niv1:hover{
+  background-color: #666666;
+  color: white;
+}
+
+.menu_niv2_ombre{
+  position: absolute;
+  top: 18px;
+  left: -3px;
+  width: 300px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+}
+
+.ombre_menu_niv2_gauche{
+  width: 300px;
+  background-color: transparent;
+  background-image: url(/includes/images/interface/ombre_menu_2_gauche.png);
+  background-repeat: repeat-y;
+  background-position: left;
+}
+
+.ombre_menu_niv2_droite{
+  margin-left: 3px;
+  width: 297px;
+  background-color: transparent;
+  background-image: url(/includes/images/interface/ombre_menu_2_droite.png);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+.menu_niv2_interieur{
+  width: 294px;
+  margin-right: 3px;
+  background-color: #666666;
+}
+.ombre_menu_niv2_bas{
+  height: 3px;
+  background-color: transparent;
+}
+
+.ombre_menu_niv2_bas_gauche{
+  float: left;
+  height: 3px;
+  width: 3px;
+  background-color: transparent;
+  background-image: url(/includes/images/interface/ombre_menu_2_bas_gauche.png);
+}
+.ombre_menu_niv2_bas_droite{
+  float: right;
+  height: 3px;
+  width: 3px;
+  background-color: transparent;
+  background-image: url(/includes/images/interface/ombre_menu_2_bas_droite.png);
+}
+.ombre_menu_niv2_bas_centre{
+  height: 3px;
+  width: 294px;
+  margin-left: 3px;
+  background-color: transparent;
+  background-image: url(/includes/images/interface/ombre_menu_2_bas.png);
+  background-repeat: repeat-x;
+}
+
+
+
+
+div.menu_niv1 div.menu_niv2_ombre{
+  display: none;
+}
+div.menu_niv1:hover div.menu_niv2_ombre{
+  display: block;
+}
+
+
+.menu_niv2.first {
+  border-top: 0px solid #666666;
+
+}
+
+.menu_niv2 {
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px 3px;
+  background-color: #666666;
+  color: #EEEEEE;
+  text-align: left;
+  height: 24px;
+  border-top: 1px solid #777777;
+  cursor: pointer;
+}
+
+.menu_niv2:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.menu_niv2 .img_menu_base{
+  display: inline;
+}
+.menu_niv2 .img_menu_hover{
+  display: none;
+}
+.menu_niv2:hover .img_menu_base{
+  display: none;
+}
+.menu_niv2:hover .img_menu_hover{
+  display: inline;
+}
+
+.nodisplay {
+  display: none;
+}
+
+.panneau_ombre {
+  position: relative;
+  width: 948px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background-color: transparent;
+  background-image: url(/includes/images/interface/ombre_panneau_droite.png);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+.panneau_annule{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  left: 430px;
+  bottom: 51px;
+  height: 51px;
+  width: 51px;
+}
+
+.panneau_base {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+
+
+.panneau_base_contenu {
+  width: 864px;
+  background-color: #999999;
+/*  opacity: .9;  */ /* genere bug z-index inclus */
+  text-align: left;
+  padding: 36px;
+}
+
+.panneau_valid_base{
+  position: relative;
+  width: 836px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 36px;
+  padding-right: 76px;
+  padding-top: 10px;
+  background-image: url(/includes/images/interface/panneau_valider_noir.png);
+}
+
+
+
+.panneau_alerte {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  color: black;
+}
+
+
+.panneau_alerte_contenu {
+  width: 864px;
+  background-color: #ff5a00;
+  opacity: .9;  
+  text-align: left;
+  padding: 36px;
+}
+
+.panneau_valid_alerte{
+  position: relative;
+  width: 836px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 36px;
+  padding-right: 76px;
+  padding-top: 10px;
+  background-image: url(/includes/images/interface/panneau_valider_rouge.png);
+}
+
+div.panneau_annule .img_div_base{
+  display: inline;
+}
+
+div.panneau_annule:hover .img_div_base{
+  display: none;
+}
+
+div.panneau_annule .img_div_hover{
+  display: none;
+}
+div.panneau_annule:hover .img_div_hover{
+  display: inline;
+}
+
+.arbo_indice_niveau{
+  position: relative;
+  background-color: #555555;
+  color: red;
+  font-weight: bold;
+  width: 842px;
+  height: 24px;
+  left: 15px;
+}
+
+.arbo_indice_niveau_0{
+  position: absolute;
+  left : -3px;
+  top: 5px;
+}
+
+.arbo_indice_niveau_1{
+  position: absolute;
+  left : 18px;
+  top: 5px;
+}
+.arbo_indice_niveau_2{
+  position: absolute;
+  left : 228px;
+  top: 5px;
+}
+.arbo_indice_niveau_3{
+  position: absolute;
+  left : 437px;
+  top: 5px;
+}
+.arbo_indice_niveau_4{
+  position: absolute;
+  left : 647px;
+  top: 5px;
+}
+
+
+
+.arbo_move {
+  position: relative;
+  width: 840px;
+  cursor: default;
+  background-image: url(/includes/images/interface/arbo/fond-arbo.png);
+  background-repeat: repeat;
+  background-position: top left;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  left: 15px;
+
+}
+
+.arbo_move_niv {
+  left: 20px;
+  position: absolute;
+  width: 190px;
+  top: 0px;
+  cursor: default;
+}
+
+.arbo_move_elem {
+  position: relative;
+  height: 20px;
+  width: 190px;   
+  cursor: default;
+}
+
+.arbo_move_over {
+  position: relative;
+  height: 20px;
+  width: 190px;   
+  cursor: default;
+}
+
+.arbo_move_elem_titre {
+  position: relative;
+  height: 20px;
+  top: 4px;
+  width: 190px;   
+  overflow: hidden;
+  cursor: default;
+  text-align: center;
+}
+
+.arbo_move_elem.actu{
+  background-color: #00c926;
+  color: #000000;
+}
+.arbo_move_elem.actif{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.arbo_move_elem.inactif{
+  background-color: transparent;
+  color: #000000;
+}
+
+.arbo_move_indic {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  height: 20px;
+  width: 20px;
+  cursor: default;
+}
+
+.arbo_indic_over{
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.arbo_indic_over img{
+  height: 20px;
+  width: 20px;
+}
+
+.arbo_move_indic1 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  cursor: default;
+}
+.arbo_move_indic2 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  cursor: default;
+}
+
+.arbo_move_indic3 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  cursor: default;
+}
+
+.arbo_move_indic2 {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  cursor: default;
+}
+
+.arbo_move_elem.inactif .arbo_move_indic1 {
+  background-image: url(/includes/images/interface/arbo/fleche-add-actu.png);
+}
+.arbo_move_elem.actif .arbo_move_indic1 {
+  background-image: url(/includes/images/interface/arbo/fleche-in-actu.png);
+}
+.arbo_move_elem.inactif .arbo_move_indic2 {
+  background-image: url(/includes/images/interface/arbo/fleche-open-actu.png);
+}
+.arbo_move_elem.actif .arbo_move_indic2 {
+  background-image: url(/includes/images/interface/arbo/fleche-in-actu.png);
+}
+.arbo_move_elem.inactif .arbo_move_indic3 {
+  background-image: url(/includes/images/interface/arbo/fleche-add.png);
+}
+.arbo_move_elem.actif .arbo_move_indic3 {
+  background-image: url(/includes/images/interface/arbo/fleche-in.png);
+}
+.arbo_move_elem.inactif .arbo_move_indic4 {
+  background-image: url(/includes/images/interface/arbo/fleche-open.png);
+}
+.arbo_move_elem.actif .arbo_move_indic4 {
+  background-image: url(/includes/images/interface/arbo/fleche-in.png);
+}
+
+.elem.actived:hover {
+  border: 1px dashed green;
+  overflow: hidden;
+  opacity: .9;  
+}
+
+.elem.actived {
+  border: 1px dashed #CCCCCC;
+  overflow: hidden;
+  opacity: .7;  
+  min-height: 31px;
+}
+
+.elem.moving {
+  border: 1px dashed red;
+  background-color: #FFCCCC;
+  overflow: hidden;
+  opacity: .9;  
+}
+
+
+.col1.actived {
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding: 16px 0px 16px 0px; 
+  margin: 1px 1px 1px 1px;
+}
+.col2.actived {
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding: 16px 0px 16px 0px; 
+  margin: 1px 1px 1px 1px;
+}
+.col3.actived {
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding: 16px 0px 16px 0px; 
+  margin: 1px 1px 1px 1px;
+}
+.col4.actived {
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding: 16px 0px 16px 0px; 
+  margin: 1px 1px 1px 1px;
+}
+.col3_2.actived {
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding: 16px 0px 16px 0px; 
+  margin: 1px 1px 1px 1px;
+}
+
+.col1.actived:hover {
+  border: 1px solid #AAAAAA;
+}
+.col2.actived:hover {
+  border: 1px solid #AAAAAA;
+}
+.col3.actived:hover {
+  border: 1px solid #AAAAAA;
+}
+.col4.actived:hover {
+  border: 1px solid #AAAAAA;
+}
+.col3_2.actived:hover {
+  border: 1px solid #AAAAAA;
+}
+
+
+.icon_actions_elem{
+  position: absolute;
+  display: none;
+  bottom: 3px;
+  right: 3px;
+  background-color: black;
+  font-size: 20px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  color: white;
+}
+
+
+.icon_actions_col{
+  opacity: .7;  
+  position: absolute;
+  display: none;
+  top: 3px;
+  left: 3px;
+  background-color: black;
+  font-size: 20px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  color: white;
+}
+
+.icon_actions{
+  display: inline;
+
+}
+
+.actived:hover .icon_actions_col{
+  opacity: .9;  
+}
+
+.col1.actived .icon_actions_elem{
+  display: block;
+}
+.col2.actived .icon_actions_elem{
+  display: block;
+}
+.col3.actived .icon_actions_elem{
+  display: block;
+}
+.col4.actived .icon_actions_elem{
+  display: block;
+}
+.col3_2.actived .icon_actions_elem{
+  display: block;
+}
+.col1.actived .icon_actions_col{
+  display: block;
+}
+.col2.actived .icon_actions_col{
+  display: block;
+}
+.col3.actived .icon_actions_col{
+  display: block;
+}
+.col4.actived .icon_actions_col{
+  display: block;
+}
+.col3_2.actived .icon_actions_col{
+  display: block;
+}
+
+.papabull {
+  position: relative;
+  display: inline;
+}
+
+.infobull{
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  background-color: #fafbb6;
+  color: black;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  display: none;
+}
+
+.papabull:hover .infobull{
+  display: block;  
+}
+
+.accesskeylist{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+
+.ombre_menu_1{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    height: 12px;
+    background-image: url(/includes/images/interface/ombre_menu_1.png);
+    background-repeat:  repeat-x;
+}
+
+.textwiki {
+/* contenu fait 864px; */
+   border-color: black;
+   border-style: solid;
+   border-width: thin;
+   padding: 3px;
+}
+
+
+.label{
+  text-align: right;
+  display:block ;
+  float:left ;
+  width: 200px;
+}
+.labelsur{
+  text-align: right;
+  display:block ;
+  float:left ;
+  width: 200px;
+  font-weight: bold;
+}
+.vignette{
+  max-height: 200px;
+  max-width: 400px;
+}
+
+.css_balises{
+  position: relative;
+  min-height: 260px;
+}
+
+.balise_css{
+  float: left;
+  width: 160px;
+  margin: 5px;
+}
+
+.proprietes_css{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 730px;
+  background-color: #DDDDDD;
+  color: #333333;
+  border: 1px solid black;
+  padding: 5px;
+  opacity: 1;  
+}
+
+
+.balise_css_propriete{
+  float: left;
+  border: 1px solid #888888;
+  width: 220px;
+  margin: 2px 5px 2px 5px;
+  padding: 2px 5px 2px 5px;
+}
+.balise_css_propriete .label{
+  width: 120px;
+}
+
+.balise_css_propriete select{
+  width: 100px;
+}

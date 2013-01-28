@@ -1,0 +1,56 @@
+/* DISPOSITION BLOCS */
+.centrage {
+  width: 900px;
+}
+
+.gauche {
+  width: 240px;
+}
+
+.milieu {
+  margin: 0px 0px 0px 240px;
+}
+.centre {
+  min-height: 400px;
+  padding: 18px 18px 18px 36px;
+  width: 624px;
+}
+
+/* WIKI */
+.line {
+  width: 624px;
+}
+
+.col1 {
+  padding: 9px 9px 9px 9px;
+  width: 606px;
+}
+
+.col2 {
+  padding: 9px 9px 9px 9px;
+  width: 294px;
+}
+
+.col3 {
+  padding: 9px 9px 9px 9px;
+  width: 1908px;
+}
+
+.col4 {
+  padding: 9px 9px 9px 9px;
+  width: 138px;
+}
+
+/*
+largeur menu : 240
+BaseMini : petit 156 (/12)
+marge elem : 9 9 9 9
+marge content : 18 18 18 36
+=> 900
+
+Menu cote gauche / droite / dessus (Combi Haut/gauche : Haut/droit)
+nb col
+Base mini (contraite multiple nbcol!)
+marge elem
+marge content
+*/
